@@ -1,0 +1,26 @@
+{
+  "name": "forge-engine",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-dom/client": "18.3.1",
+    "gl-matrix": "3.4.3",
+    "react-resizable-panels": "2.0.20?deps=react@18.3.1,react-dom@18.3.1",
+    "zustand": "4.5.4",
+    "lucide-react": "0.412.0?deps=react@18.3.1",
+    "@google/genai": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
